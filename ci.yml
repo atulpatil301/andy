@@ -22,7 +22,7 @@ steps:
     displayName: 'Build and Test'
     inputs:
       mavenPomFile: 'pom.xml'
-      goals: package -Dmaven.test.skip=true
+      goals: package
       mavenVersionSelection: Path
       mavenPath: /opt/maven
       mavenOptions: '-Xmx2048m'
